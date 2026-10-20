@@ -21,7 +21,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## 2026-09-23 Tide & Timber rebrand
 
-- The whole site was rebranded from a studio homepage into a fictional client concept: **"Tide & Timber"**, a slow-travel journal from "the western shore" (an invented coastline, no real place names). It is explicitly credited everywhere as "A concept by Rohan Ahire" (footer link + a fixed bottom-left pill on every page), and the copy never claims to be a real business.
+- The whole site was rebranded from a studio homepage into a fictional client concept: **"Tide & Timber"**, a slow-travel journal from "the western shore" (an invented coastline, no real place names). It is labelled everywhere as "Concept site · not a real business" (footer + a fixed bottom-left pill on every page), with no studio or author name, so the same build ships to every domain, and the copy never claims to be a real business.
 - Content lives in `src/stories.js` (five stories: featured/cove/harbour/rockpools/path) and is rendered by the generalized `Story` component in `src/App.jsx` (was `CaseStudy`). The morph-open/close and view-transition logic is unchanged in shape, just parameterized by story id and source element.
 - Asset pipeline for the 19 new photos (originals dropped in `~/Downloads`):
   - Originals were copied into `assets-src/raw/` (outside `public/`, gitignored) so Vite never ships the ~45MB of source PNGs.

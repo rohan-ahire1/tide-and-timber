@@ -340,7 +340,6 @@ img { display: block; }
 
 .concept-pill { position: fixed; left: 14px; bottom: 14px; z-index: 25; display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; background: var(--paper) url('/assets/paper.webp') center / 300px auto; border-radius: 4px; box-shadow: -2px 4px 8px rgba(18, 38, 60, .18); font-family: var(--sans); font-size: 12px; font-weight: 700; text-decoration: none; color: var(--navy); transition: transform .2s var(--ease-out), opacity .3s ease; }
 .case-is-open .concept-pill { opacity: 0; pointer-events: none; }
-.concept-pill:hover { transform: translateY(-2px); }
 
 /* Story overlay ----------------------------------------------------------- */
 .case-backdrop { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; padding: clamp(12px, 3vw, 40px); background: rgba(22, 42, 64, .28); }

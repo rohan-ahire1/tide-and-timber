@@ -386,12 +386,12 @@ export function App() {
       <footer className="site-footer">
         <span className="wordmark">Tide &amp; Timber</span>
         <span>A slow-travel journal from the western shore.</span>
-        <a href="https://rohanahire.com" target="_blank" rel="noopener">A concept by Rohan Ahire</a>
+        <span>Concept site · not a real business</span>
         <span>© 2026</span>
       </footer>
     </main>
 
-    <a className={`concept-pill ${pastHero ? 'is-visible' : ''}`} href="https://rohanahire.com" target="_blank" rel="noopener">Concept by Rohan Ahire <ArrowUpRight size={12} weight="bold" /></a>
+    <span className={`concept-pill ${pastHero ? 'is-visible' : ''}`}>Concept site · not a real business</span>
 
     {isOpen && <Story id={storyId} onClose={closeStory} onNext={nextStory} closeRef={closeRef} fading={fading} />}
   </>;
