@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "src/styles.css"
+        ],
+        "createdAt": "2026-09-22T21:53:55.152Z",
+        "reason": "Claude triage: L250 is the booklet spine (.guide::before, 1px dashed stitch line on a printed field-guide object), literal physical detail, not a card accent tab"
+      }
+    ]
+  }
+}
